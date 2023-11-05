@@ -1,0 +1,233 @@
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    .navbar{
+            top: 0px;
+        
+    }
+    .container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    /* .navbar .navbar-nav .nav-item .nav-link img {
+        display: none;
+    } */
+    .navbar .navbar-nav .nav-item .nav-link img {
+        top: 73%;
+        width: 30px;
+    }
+    .navbar .navbar-nav {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding: 30px 0;
+    }
+    .navbar .custom-btn {
+        font-size: 16px;
+        font-weight: 600px;
+        padding: 5px 12px;
+        width: 100%;
+        border-radius: 5px;
+        transition: .4s;
+    }
+   
+    .navbar-toggler{
+        border: 0;
+    }
+    .navbar-toggler:focus{
+        border: 0;
+        outline: 0;
+        box-shadow: none;
+
+    }
+    .fa-solid, .fas {
+        color: #d50a51;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 12px 20px;
+        justify-content: center;
+    }
+ .my-btn {
+        margin-top: 33px;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+/* =====================navbar end=================== */
+ 
+/* =======================bannar-part-Start============================= */
+#banner-part .banner-img img {
+    display: none;
+ }
+ /* #banner-part .text-part {
+     display: none;
+ } */
+ #banner-part{
+ 
+    padding-top:95px ;
+    padding-bottom: 40px;
+}
+#banner-part .text-part h2 {
+	font-size: 40px;
+}
+#banner-part .text-part h1 {
+	font-size: 50px;
+	margin-top: 17px;
+}
+#banner-part .text-part p {
+	font-size: 14px;
+	margin-top: 25px;
+	margin-bottom: 38px;
+}
+.btn {
+	font-size: 16px;
+	padding: 12px 20px;
+	
+}
+/* =============================================bannar-part End========================== */
+/* =============================================History-part start========================== */
+#history-part  {
+    
+   padding: 0;
+    background: rgba(6, 6, 6, 0.968);
+
+}
+#history-part .container {
+    background: url(../images/history-img.png) no-repeat center / cover;
+position: relative;
+z-index: 1;
+padding-top: 60px;
+padding-bottom: 60px;
+}
+#history-part .container::after {
+    content:'' ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(35, 35, 35, 0.651);
+    z-index: -1;
+}
+#history-part .imag-part img {
+	display: none;
+}
+#history-part p{
+	font-size: 14px;
+    color: rgb(247, 245, 245);
+}
+.title h3 {
+        font-size: 26px;
+        color: white;
+        padding-top: 24px;
+ 
+}
+/* ==============================history part end=================================== */
+/* ==============================gift-part start===================================== */
+
+#gift-part{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#gift-part .text p {
+	color: rgb(7, 7, 7);
+	z-index: 1;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#gift-part .container {
+   
+	padding: 12px 0;
+    background:rgba(242, 239, 239, 0.571) ;
+    height: 100%;
+    width: 100%;
+}
+
+#gift-part .gift-img img {
+	display: none;
+    
+}
+#gift-part .text-part .text {
+	padding-left: 22px;
+    background-size: cover;
+}
+
+#gift-part .text-part .text .my-btn {
+	display: flex;
+	justify-content: center;
+}
+.text p {
+	color: rgb(7, 7, 7);
+    z-index: 1;
+}
+#gift-part .container .title p{
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 14px;
+}
+.title h3 {
+	color: #bfbcbc;
+}
+/* ============================= ticket-part start================================ */
+#ticket-part {
+    padding: 0;
+	padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+#ticket-part .container {
+    background: url(../images/ticket-img.png) no-repeat center / cover;
+   
+}
+
+#ticket-part .ticket-img img {
+	display: none;
+}
+
+#ticket-part .text-part {
+	text-align: left;
+}
+
+#ticket-part .text-part .text .my-btn {
+	justify-content: center;
+}
+#ticket-part .text-part .text .btn {
+        font-size: 16px;
+        padding: 12px 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+}
+#ticket-part .text-part .text-title .title img {
+	display: none;
+    height: 100%;
+    width: 100%;
+}
+#ticket-part .text-part {
+	background: #ffffffd1;
+}
+.text p {
+	padding-left: 32px;
+}
+#ticket-part .text-part {
+    background: #0707076b;
+}
+#ticket-part .text-part .text p {
+        color: white;
+}
+
+/* #ticket-part .text-part .text .my-btn {
+	padding-bottom: 30px;
+} */
+/* ========================offer-part start======================= */
+#offer-part .text {
+	background: #f7f7f7;
+}
+
+#offer-part .music {
+	background: #ffc0cb14;
+	border: 1px solid #ed548a;
+    column-gap: 30px;
+}
+.row {
+	row-gap: 30px;
+}
+
+}
